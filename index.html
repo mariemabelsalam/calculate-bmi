@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate bmi</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <section class="w-50 mx-auto my-5">
+
+        <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="weightinput" oninput="validation(this)">
+            <label for="weightInput">Weight</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="number" class="form-control" id="heightinput" oninput="validation(this)">
+            <label for="heightInput">height</label>
+        </div>
+        <div class="text-center">
+            <button class="btn border border-2 rounded-2" onclick="clacBmi()">Calc Bmi</button>
+        </div>
+    </section>
+
+    <section class="text-center">
+        <p id="bmi"></p>
+       <p id="test"></p>
+    </section>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

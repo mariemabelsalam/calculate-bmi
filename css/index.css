@@ -1,0 +1,6 @@
+body {
+    background-color: #b2dfdb;
+}
+.btn{
+    --bs-btn-bg:#ff7043;
+}
